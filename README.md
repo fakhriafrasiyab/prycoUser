@@ -25,3 +25,5 @@ This is a simple FastAPI application demonstrating user registration, authentica
 
    ```bash
    pip install fastapi[all] python-jose[pyjwt] sqlalchemy cachetools psycopg2
+   pip install uvicorn
+   python -m uvicorn index:app --reload
